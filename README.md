@@ -14,3 +14,4 @@ LINK-ID 3类LSA路由前缀   ADV ABR的RouteID
 五类 LSA ASBR通告  通告外部路由信息，即外部引入路由
 
 七类 LSA 特殊区域的LSA NSSA区域5类的LSA 因NSSA区域不允许存在5类，所有转换成了7类LSA
+        如果传出本区域则会变更为5类LSA
